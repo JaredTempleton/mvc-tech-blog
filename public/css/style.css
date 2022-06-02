@@ -3,11 +3,11 @@
 }
 
 :root {
-  --primary: teal;
+  --primary: rgb(98, 110, 110);
   --secondary: orange;
   --seagreen: #87acac;
   --light: white;
-  --dark: grey;
+  --dark: rgb(21, 44, 44);
 }
 
 body {
@@ -54,13 +54,14 @@ p {
 .btn {
   font: 1rem;
   padding: 5px 5px;
-  width: 100%;
+  width: auto;
   display: block;
   margin: 5px 0;
   border-radius: 0.5rem;
   color: white;
-  background-color: #0a73d1;
+  background-color: rgb(21, 44, 44);
   transform: translate(-1px, -1px);
+  justify-content: center;
 }
 
 .btn:hover {
