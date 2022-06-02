@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: teal;
+  --secondary: orange;
+  --seagreen: #87acac;
+  --light: white;
+  --dark: grey;
+}
+
+body {
+  background-color: var(--primary);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--dark);
+  font-size: 24px;
+}
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+  font-weight: 500px;
+  margin: 0;
+  color: var(--dark);
+}
